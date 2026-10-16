@@ -1,8 +1,8 @@
 # HIP
 
-Proyecto monorepo: frontend (React) + backend (FastAPI).
+Monorepo project: frontend (React) + backend (FastAPI).
 
-## Estructura
+## Structure
 
 ```
 HIP/
@@ -14,22 +14,22 @@ HIP/
 │       ├── context/
 │       ├── hooks/
 │       ├── pages/
-│       ├── services/   # llamadas al API
+│       ├── services/   # API client calls
 │       ├── styles/
 │       └── utils/
 ├── backend/           # FastAPI
 │   ├── app/
 │   │   ├── api/routes/
-│   │   ├── core/       # config, seguridad
-│   │   ├── db/         # conexión / sesión
+│   │   ├── core/       # config, security
+│   │   ├── db/         # connection / session
 │   │   ├── models/     # ORM
 │   │   ├── schemas/    # Pydantic
-│   │   └── services/   # lógica de negocio
+│   │   └── services/   # business logic
 │   └── tests/
 └── docs/
 ```
 
-## Próximos pasos
+## Next steps
 
-1. Inicializar React en `frontend/` (Vite + React).
-2. Instalar dependencias de FastAPI en `backend/`.
+1. Install frontend dependencies in `frontend/` (`npm install`).
+2. Install FastAPI dependencies in `backend/` (`pip install -r requirements.txt`).
